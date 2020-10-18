@@ -1,7 +1,7 @@
 import NicePackageInterfaces
 
-class NiceImplementation: NiceProtocol {
-    func niceFunction() {
+public class NiceImplementation: NiceProtocol {
+    public func niceFunction() {
         print("Nice function called")
     }
 }
